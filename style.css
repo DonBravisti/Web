@@ -1,0 +1,16 @@
+.header{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header p{
+	margin-right: 35px;
+	font-family: 'Heebo';
+	font-size: 20px;
+	color: #000000;
+}
+
+.header a{
+	text-decoration: none;
+}
+
