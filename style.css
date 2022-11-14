@@ -15,6 +15,10 @@ header{
 	color: #000000;
 }
 
+.header p:hover{
+	text-decoration: underline;
+}
+
 .header a{
 	text-decoration: none;
 }
@@ -142,6 +146,10 @@ h1{
 	font-size: 18px;
 }
 
+footer{
+	margin-top: 150px;
+}
+
 .footer{
 	width: 230px;
 	margin: 51px auto 54px;
@@ -160,4 +168,82 @@ h1{
 
 	color: #21243D;
 	text-align: center;
+}
+
+.works{
+	width: 855px;
+	margin: 0 auto;
+}
+
+.works__header{
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 22px;
+
+	color: #21243D;
+}
+
+.works__block{
+	width: 100%;
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 46px;
+}
+
+.works__block h4{
+	font-family: 'Heebo';
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 44px;
+	
+	color: #21243D;
+	margin: 0;
+}
+
+.works__block img{
+	height: 100%	;
+}
+
+.works__block__text{
+	margin-left: 18px;
+}
+
+.works__block__text div{
+	display: flex;
+}
+
+.works__block__text div div{
+	height: 25px;
+	width: 62px;
+	margin-right: 26px;
+	background: #142850;
+	border-radius: 16px;
+}
+
+.works__block__text div p{
+	margin-top: 0;
+	font-family: 'Heebo';
+	font-weight: 400;
+
+	
+	color: #8695A4;
+}
+
+.works__block__text div div p{
+	font-family: 'Heebo';
+	font-weight: 900;
+	font-size: 18px;
+	
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+
+.works__block__description{
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #21243D;
 }
