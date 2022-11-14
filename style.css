@@ -141,3 +141,23 @@ h1{
 .post__blocks div div p{
 	font-size: 18px;
 }
+
+.footer{
+	width: 230px;
+	margin: 51px auto 54px;
+}
+
+.footer div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer p{
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+
+	color: #21243D;
+	text-align: center;
+}
