@@ -67,3 +67,77 @@ h1{
 
 	margin: auto;
 }
+
+.posts{
+	width: 855px;
+	margin: 71px auto 0;
+}
+
+.posts__header{
+	display: flex;	
+	justify-content: space-between;
+}
+
+.posts__header p{
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 60px;
+
+	color: #21243D;
+	margin: 0;
+}
+
+.posts__header a p{
+	font-size: 16px;
+	color: #00A8CC;
+}
+
+.posts__header a p:hover{
+	text-decoration: underline;
+}
+
+.post__blocks{
+	display: flex;
+	justify-content: space-between;
+}
+
+.post__blocks div{
+	width: 418px;
+	height: 295px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+	border-radius: 4px;	
+}
+
+.post__blocks div div{
+	height: 35px;
+	width: 330px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.post__blocks h4{
+	font-family: 'Heebo';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 38px;
+
+	color: #21243D;
+	margin-left: 22px;
+}
+
+.post__blocks p{
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #21243D;
+	margin-left: 22px;
+}
+
+.post__blocks div div p{
+	font-size: 18px;
+}
