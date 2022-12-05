@@ -1,5 +1,5 @@
 header{
-	width: 1100px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 
@@ -70,6 +70,48 @@ h1{
 	color: #FFFFFF;
 
 	margin: auto;
+}
+
+.container{
+	margin: 0 auto;
+
+	background-color: #EDF7FA;
+	min-height: 396px;
+	max-width: 1200px;
+}
+
+@media(max-width: 1200px){
+	.container{
+		width: 992px;
+	}
+
+	header{
+		width: 992px;
+	}
+}
+
+@media(max-width: 500px){
+	.greeting{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.greeting div{
+		margin: 0 auto;
+	}
+
+	.posts{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.post__blocks{
+		flex-direction: column;
+	}
+
+	.posts__header a{
+		display: none;
+	}
 }
 
 .posts{
