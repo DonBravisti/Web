@@ -29,6 +29,8 @@ header{
 .greeting{
 	display: flex;
 	justify-content: space-between;
+/*	width: 100%;
+	max-width: 855px;*/
 	width: 855px;
 	margin: 100px auto 0;
 }
@@ -272,24 +274,20 @@ footer{
 }
 
 @media(max-width: 1200px){
-	.container{
-		width: 992px;
-	}
-
-	header{
-		width: 992px;
-	}
-
-	footer{
+	.container,
+	header,
+	footer,
+	.works,
+	.greeting{
 		width: 992px;
 	}
 }
 
 @media(max-width: 500px){
 	.greeting{
-		flex-direction: column;
+		flex-direction: column-reverse;
 		text-align: center;
-		margin: 0 auto;
+		margin-bottom: 50px;
 	}
 
 	.greeting div{
@@ -312,8 +310,12 @@ footer{
 	}
 
 	.post__blocks div{
-		max-width: 800px;
+		/*max-width: 800px;*/
 		margin-bottom: 17px;
+	}
+
+	.post__block{
+		min-height: 220px;
 	}
 
 	.posts__header a{
