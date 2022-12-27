@@ -27,6 +27,11 @@ header{
 	text-decoration: none;
 }
 
+.slider{
+	width: 300px;
+	margin: 0 auto;
+}
+
 .open_menu{
 	height: fit-content;
 	background-color: #EDF7FA;
@@ -289,7 +294,7 @@ footer{
 	color: #21243D;
 }
 
-.to_hide{
+.to_hide_burger{
 	display: none;
 }
 
@@ -375,9 +380,7 @@ footer{
 
 	.works__header{
 		text-align: center;
-	}
-
-	
+	}	
 
 	.works__block{
 		flex-direction: column;
@@ -390,5 +393,9 @@ footer{
 
 	.works__block img{
 		width: 100%;		
+	}
+
+	.to_hide{
+		display: none;
 	}
 }

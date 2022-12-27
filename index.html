@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>John Page</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="/slick/slick-theme.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
@@ -32,7 +34,7 @@
 	</header>
 
 	<main>
-		<div class="open_menu to_hide">
+		<div class="open_menu to_hide_burger">
 			<a href="">
 				<p>Works</p>
 			</a>
@@ -93,49 +95,57 @@
 
 		<div class="works">
 			<p class="works__header">Featured works</p>
-			<div class="works__block">
-				<img src="img/works1.png" alt="">
-				<div class="works__block__text">
-					<h4>Designing Dashboards</h4>
-					<div>
+			<div class="slider single-item">
+				<div class="works__block">
+					<img src="img/works1.png" alt="">
+					<div class="works__block__text">
+						<h4>Designing Dashboards</h4>
 						<div>
-							<p>2020</p>
+							<div>
+								<p>2020</p>
+							</div>
+							<p>Dashboard</p>
 						</div>
-						<p>Dashboard</p>
+						<p class="works__block__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+							do
+							amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+							sunt
+							nostrud amet.</p>
 					</div>
-					<p class="works__block__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-						amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
-						nostrud amet.</p>
 				</div>
-			</div>
-			<div class="works__block to_hide">
-				<img src="img/works2.png" alt="">
-				<div class="works__block__text">
-					<h4>Vibrant Portraits of 2020</h4>
-					<div>
+				<div class="works__block to_hide">
+					<img src="img/works2.png" alt="">
+					<div class="works__block__text">
+						<h4>Vibrant Portraits of 2020</h4>
 						<div>
-							<p>2018</p>
+							<div>
+								<p>2018</p>
+							</div>
+							<p>Illustration</p>
 						</div>
-						<p>Illustration</p>
+						<p class="works__block__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+							do
+							amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+							sunt
+							nostrud amet.</p>
 					</div>
-					<p class="works__block__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-						amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
-						nostrud amet.</p>
 				</div>
-			</div>
-			<div class="works__block to_hide">
-				<img src="img/works3.png" alt="">
-				<div class="works__block__text">
-					<h4>36 Days of Malayalam type</h4>
-					<div>
+				<div class="works__block to_hide">
+					<img src="img/works3.png" alt="">
+					<div class="works__block__text">
+						<h4>36 Days of Malayalam type</h4>
 						<div>
-							<p>2018</p>
+							<div>
+								<p>2018</p>
+							</div>
+							<p>Typography</p>
 						</div>
-						<p>Typography</p>
+						<p class="works__block__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+							do
+							amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+							sunt
+							nostrud amet.</p>
 					</div>
-					<p class="works__block__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-						amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
-						nostrud amet.</p>
 				</div>
 			</div>
 		</div>
@@ -152,6 +162,9 @@
 			<p>Copyright ©2020 All rights reserved </p>
 		</div>
 		<script src='/menuBurger.js'></script>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="slick/slick.min.js"></script>
+		<script src="/slider.js"></script>
 	</footer>
 </body>
 
